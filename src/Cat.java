@@ -1,5 +1,5 @@
 public class Cat extends Animal{
-
+    String mustache;
     public Cat(String name, int weight) {
         super(name, weight);
     }

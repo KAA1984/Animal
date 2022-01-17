@@ -1,4 +1,5 @@
 public class Koala extends Animal{
+    String countryOfLiving;
     public Koala(String name, int weight) {
         super(name, weight);
     }

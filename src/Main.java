@@ -6,6 +6,8 @@ public class Main {
         koala.makeSound();
         horse.makeSound();
         cat.makeSound();
-
+        System.out.println(horse.equals(cat));
+        System.out.println(cat.equals(koala));
+        System.out.println(horse.equals(koala));
     }
 }

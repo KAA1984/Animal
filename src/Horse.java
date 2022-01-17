@@ -1,5 +1,6 @@
 public class Horse extends Animal{
-
+    int hooves;
+    String mane;
     public Horse(String name, int weight) {
         super(name, weight);
     }
